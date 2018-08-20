@@ -91,9 +91,12 @@
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _hello_world_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
+/* harmony import */ var _add_image_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2);
+
 
 
 Object(_hello_world_js__WEBPACK_IMPORTED_MODULE_0__["default"])();
+Object(_add_image_js__WEBPACK_IMPORTED_MODULE_1__["default"])();
 
 /***/ }),
 /* 1 */
@@ -106,6 +109,27 @@ function helloWorld() {
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (helloWorld);
+
+/***/ }),
+/* 2 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+!(function webpackMissingModule() { var e = new Error("Cannot find module './kiwi.jpg'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+
+
+function addImage() {
+    const img = document.createElement('img');
+    img.alt = 'Kiwi';
+    img.width = 300;
+    img.src = !(function webpackMissingModule() { var e = new Error("Cannot find module './kiwi.jpg'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+
+    const body = document.querySelector('body');
+    body.appendChild(img);
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (addImage);
 
 /***/ })
 /******/ ]);
