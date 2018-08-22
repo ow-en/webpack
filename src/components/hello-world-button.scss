@@ -1,14 +1,16 @@
 $font-size: 20px;
-$button-background-color: green;
-$button-font-color: white;
-$text-font-color: red;
+$button-background-color: papayawhip;
+$button-font-color: black;
+$text-font-color: slateblue;
+$font-family: "Avenir";
 
 .hello-world-button {
   font-size: $font-size;
   padding: 7px 15px;
   background: $button-background-color;
   color: $button-font-color;
-  outline: none;
+  outline: 1px dotted rebeccapurple;
+  font-family: "Fira Code";
 }
 
 .hello-world-text {

@@ -1,0 +1,15 @@
+.hello-world-button {
+  font-size: 20px;
+  padding: 7px 15px;
+  background: papayawhip;
+  color: black;
+  outline: 1px dotted rebeccapurple;
+  font-family: "Fira Code"; }
+
+.hello-world-text {
+  color: slateblue;
+  font-weight: bold; }
+
+h1 {
+  color: gray; }
+
